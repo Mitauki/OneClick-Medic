@@ -1,0 +1,131 @@
+
+div#imagen {
+    
+
+    width: 300px;
+    height: 400px;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url("https://i.pinimg.com/originals/21/a0/09/21a0093095e4cb329bc270c19cc1c522.gif");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+div#imagen2 {
+    
+
+    width: 300px;
+    height: 400px;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url("https://media.tenor.com/images/65e80c60459e14586ecd07e78a28300e/tenor.gif");
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+   
+}
+
+div#imagen3 { 
+  
+
+    width: 300px;
+    height: 400px;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url("https://media.tenor.com/images/11e7c86b0a3f51c0be654235c0db8282/tenor.gif");
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+div#imagen4 {
+  
+
+    width: 300px;
+    height: 400px;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/934963094703567723/121EBFF617B29F82506244253F3AEEFA6091FB9D/");
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+.i {
+  text-align: top;
+  max-width: 800px;
+  margin: 25px auto;
+  color: #fff;
+  font-size: 18px;
+}
+  
+  div#info {
+    position:absolute;
+    overflow:hidden;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity:0;
+    transition: opacity 0.3s;
+  }
+  
+  div#imagen:hover div#info {
+    opacity:1;
+  }
+
+  div#imagen2:hover div#info {
+    opacity:1;
+  }
+
+  div#imagen3:hover div#info {
+    opacity:1;
+  }
+
+  div#imagen4:hover div#info {
+    opacity:1;
+  }
+  
+  p#headline {
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 15px;
+    transition: margin-left 0.3s;
+  }
+  
+  div#imagen:hover p#headline {
+    margin-left: 115px;
+  }
+
+  div#imagen2:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  div#imagen3:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  div#imagen4:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  p#descripcion {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 100PX;
+    transition: margin-top 0.4s;
+  }
+  
+  div#imagen:hover p#descripcion {
+    margin-top: 75px;
+  }
+  
+  div#imagen2:hover p#descripcion {
+    margin-top: 100px;
+  }
+  div#imagen3:hover p#descripcion {
+    margin-top: 75px;
+  }
+  div#imagen4:hover p#descripcion {
+    margin-top: 75px;
+  }
+  
